@@ -1,0 +1,54 @@
+/* RepoComponent.css */
+
+.repo-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.repo-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.repo-desc {
+    font-size: 14px;
+    color: #777;
+}
+
+.repo-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.repo-link:hover {
+    background-color: #0056b3;
+}
+
+.repo-link.archived {
+    background-color: #ffc400;
+    color: #000;
+}
+
+.repo-link.archived:hover {
+    background-color: #b38f00;
+}
+
+.archived {
+    background-color: #f8f9fa;
+}
+
+.archived .repo-name {
+    color: #777;
+    text-decoration: line-through;
+}
+
+/* Add additional CSS styles as needed */
